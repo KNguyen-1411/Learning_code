@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font: verdana;
+}
+.main{
+    width: 500px;
+    height: 435px;
+    background-color: #F4347F;
+    margin: 0 auto;
+}
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+    outline: 4px solid white;
+}
+.row1,.row2{
+    display: flex;
+}
+.row1{
+    margin-top: 50px;
+    margin-bottom: 5px;
+    padding-top: 10px;
+}
+.colx11,.col21{
+    width: 155px;
+}
+.col11{
+    padding: 10px 25px 10px 40px;
+}
+.col12 h1{
+    font-size: 30px;
+    color: white;
+    margin-bottom: 4px;
+}
+.col12 h2{
+    font-size: 18px;
+    color: white;
+    margin-bottom: 3px;
+}
+.col12 p{
+    font-size: 10px;
+    color: white;
+}.col21{
+    margin-left: 10px;
+}
+.col22{
+    width: 325px;
+    height: 290px;
+    background: url(../images/background.jpg);
+    background-position: center center;
+    background-size: cover;
+    border-radius: 10px;
+    padding: 10px;
+}
+.col2-1-1{
+    margin-top: 10px;
+    margin-bottom: 23px;
+}
+.col2-4{
+    margin-top: 34px;
+}
+.col21 p{
+    font-size: 9px;
+    color: white;
+}
+.col22 p{
+    font-size: 10px;
+    color:black;
+}
+.gachchan{
+    width: 150px;
+    outline: 1px solid white;
+    margin: 5px 0 15px 0;
+}
+.gc{
+    width: 300px;
+    outline: 1px solid rgb(0, 0, 0);
+    margin: 5px 0 15px 0;
+}
+.col21 h3{
+    color: rgb(255, 255, 255);
+}
+td,th{
+    font-size: 10px;
+    padding: 1px;
+    padding-left: 3px;
+    border: 1px solid #F4347F;
+}
+#kk{
+    text-align: center;
+}
+#tb{
+    background-color:#F4347F;
+    color: white;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}  
